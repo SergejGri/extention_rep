@@ -59,7 +59,7 @@ class Extention_rep:
 
 
 def main():
-    dir = r'/home/sergej/Desktop/docs/' # place our working directory here
+    dir = r'' # place our working directory here
     replace = Extention_rep(dir_to_source=dir, old_ext='.mp4', new_ext='.jpg')
     replace.extention()
 
